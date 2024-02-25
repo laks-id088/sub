@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('pea.jpg'); /* Replace 'background-image.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+
+/* Header styles */
+header {
+    background-color: rgba(12, 2, 33, 0.7); /* Added some transparency to the header background */
+    color: #eeefeefe;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li :hover{
+    color:#ff6600;
+    }
+
+nav ul li a {
+    text-decoration: none;
+    color: hsla(59, 94%, 49%, 0.976);
+    font-size:25px;
+    font-weight:bold;
+}
+nav ul li a :hover{
+color:#ff6600;
+}
+
+/* Main content styles */
+.main-content {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.search {
+    margin-bottom: 20px;
+    color:#0c0c0c;
+}
+
+.search input[type="text"] {
+    padding: 10px;
+    width: 200px;
+}
+
+.search button {
+    padding: 10px 15px;
+    background-color: #f8230f;
+    border: none;
+    color: #141313;
+    cursor: pointer;
+}
+.login-form {
+    width: 300px;
+    margin: auto; /* Center horizontally */
+    background-color: rgba(245, 246, 245, 0.969); /* Background color with transparency */
+    padding: 20px; /* Padding for the inside of the box */
+    border-radius: 100px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
+    position: absolute;
+    top: 60%;
+    transform: translateY(-1%);
+    padding-left:10px;
+    padding-top:10px;
+    margin-right:auto;
+   
+}
+.login-form h2 {
+    margin-bottom: 10px;
+    font-size:30px;
+    font-family:serif;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.login-form button {
+    padding: 15px 30px;
+    background-color: #0cf418;
+    border: none;
+    color: #0c0c0c;
+    cursor: pointer;
+    font-weight:bold;
+    font-size:large;
+}
+
+/* Footer styles */
+footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Added some transparency to the footer background */
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0; /* Adjust padding as needed */
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 30px;
+    font-size:30px;
+}
+
+.social-icons a:hover {
+    color: #ff6600;
+}
